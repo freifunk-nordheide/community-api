@@ -1,0 +1,92 @@
+{
+  "name": "Freifunk Nordheide",
+  "url": "https://nordheide.freifunk.net/",
+  "location": {
+    "city": "Buchholz in der Nordheide",
+    "country": "DE",
+    "lat": 53.310579803,
+    "lon": 9.80881691,
+    "address": {
+      "Name": "bei Zippel / Heidekrug",
+      "Street": "Bendestorfer Straße",
+      "Zipcode": "21244"
+    }
+  },
+  "contact": {
+    "email": "heini66@gmail.com",
+    "irc": "irc://irc.hackint.net/ffnordheide",
+    "ml": "http://lists.freifunk.net/mailman/listinfo/nordheide-freifunk.net",
+    "facebook": "https://www.facebook.com/groups/FreifunkNordheide/"
+  },
+  "state": {
+    "nodes": 50,
+    "description": "Freifunk Nordheide bietet Unterstützung beim Aufbau gemeinschaftlicher und offener WLAN-Netze im Landkreis Harburg.",
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Local services and content",
+      "Free internet access"
+    ],
+    "lastchange": "2017-11-19T19:38:50.550Z"
+  },
+  "nodeMaps": [
+    {
+      "url": "http://map.freifunk-nordheide.de/",
+      "interval": "60s",
+      "technicalType": "hopglass",
+      "mapType": "geographical"
+    }
+  ],
+  "support": {
+    "donations": {
+      "bankaccount": {
+        "IBAN": "DE54 2075 0000 0090 6708 37",
+        "BIC": "NOLADE21HAM",
+        "usage": "Freifunk Nordheide e.V."
+      }
+    }
+  },
+  "privacy": {
+    "policyurl": "https://nordheide.freifunk.net/wiki/FreifunkNordheide:Datenschutz"
+  },
+  "techDetails": {
+    "firmware": {
+      "name": "Gluon",
+      "url": "http://update.freifunk-nordheide.de/firmware/",
+      "docs": "https://github.com/freifunk-nordheide/ffnordheide/tree/ffnh-lede/ffndh-site",
+      "vpnaccess": "automatic"
+    },
+    "dns": [
+      {
+        "domainname": "ffnh",
+        "nameserver": [
+          "0.gw.ffnh"
+        ]
+      }
+    ],
+    "networks": {
+      "ipv6": [
+        {
+          "network": "fd8f:14c7:d318::0/64"
+        }
+      ],
+      "ipv4": [
+        {
+          "network": "10.71.0.0/8"
+        }
+      ]
+    },
+    "routing": [
+      "802.11s",
+      "batman-adv"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ],
+    "legals": [
+      "institutions"
+    ]
+  },
+  "api": "0.4.14"
+}
