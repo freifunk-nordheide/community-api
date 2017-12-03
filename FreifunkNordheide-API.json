@@ -36,6 +36,12 @@
       "interval": "60s",
       "technicalType": "hopglass",
       "mapType": "geographical"
+    },
+    {
+      "url": "http://map.freifunk-nordheide.de:4000/nodelist.json",
+      "interval": "60s",
+      "technicalType": "nodelist",
+      "mapType": "list/status"
     }
   ],
   "support": {
